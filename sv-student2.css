@@ -25,6 +25,24 @@
   font-size: 30px;
   text-align: center;
 }
+.sv-student2-navlink {
+  top: 533px;
+  left: 972px;
+  width: 294px;
+  height: 66px;
+  position: absolute;
+  box-shadow: 1px 1px 5px 0px #000000;
+  text-align: center;
+  text-decoration: none;
+}
+.sv-student2-navlink1 {
+  top: 222px;
+  left: 322px;
+  position: absolute;
+  box-shadow: 1px 1px 5px 0px #000000;
+  text-align: center;
+  text-decoration: none;
+}
 .sv-student2-form {
   top: 223px;
   left: 972px;
@@ -51,24 +69,6 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
   position: absolute;
-}
-.sv-student2-navlink {
-  top: 533px;
-  left: 972px;
-  width: 294px;
-  height: 66px;
-  position: absolute;
-  box-shadow: 1px 1px 5px 0px #000000;
-  text-align: center;
-  text-decoration: none;
-}
-.sv-student2-navlink1 {
-  top: 222px;
-  left: 322px;
-  position: absolute;
-  box-shadow: 1px 1px 5px 0px #000000;
-  text-align: center;
-  text-decoration: none;
 }
 .sv-student2-form1 {
   top: 223px;
