@@ -45,9 +45,9 @@
   position: absolute;
 }
 .s-arrange-meeting-select {
-  top: 293px;
-  left: 980px;
+  right: 38px;
   width: 179px;
+  bottom: 38px;
   height: 23px;
   position: absolute;
 }
@@ -73,8 +73,8 @@
   position: absolute;
 }
 .s-arrange-meeting-select1 {
-  top: 427px;
-  left: 1032px;
+  right: 38px;
+  bottom: 38px;
   position: absolute;
 }
 .s-arrange-meeting-navlink {
@@ -88,4 +88,36 @@
   box-shadow: 1px 1px 5px 0px #000000;
   text-align: center;
   text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .s-arrange-meeting-top-bar {
+    width: 1200px;
+  }
+  .s-arrange-meeting-select {
+    position: absolute;
+  }
+  .s-arrange-meeting-select1 {
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .s-arrange-meeting-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .s-arrange-meeting-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .s-arrange-meeting-top-bar {
+    width: 479px;
+  }
+  .s-arrange-meeting-form {
+    width: 464px;
+  }
+  .s-arrange-meeting-form1 {
+    width: 468px;
+  }
 }

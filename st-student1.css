@@ -115,3 +115,79 @@
   text-align: center;
   text-decoration: none;
 }
+@media(max-width: 1200px) {
+  .st-student1-top-bar {
+    width: 1200px;
+  }
+  .st-student1-form {
+    top: 194px;
+    left: 32px;
+  }
+  .st-student1-form1 {
+    top: 572px;
+    left: 550px;
+  }
+  .st-student1-form2 {
+    top: 194px;
+    left: 551px;
+  }
+  .st-student1-navlink {
+    top: 122px;
+    left: 30px;
+  }
+}
+@media(max-width: 991px) {
+  .st-student1-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .st-student1-top-bar {
+    width: 767px;
+  }
+  .st-student1-form {
+    height: 372px;
+  }
+  .st-student1-text08 {
+    top: 145px;
+    left: 162px;
+  }
+  .st-student1-text22 {
+    top: 196px;
+    left: 30px;
+  }
+  .st-student1-form1 {
+    top: 626px;
+    left: 30px;
+    width: 258px;
+  }
+  .st-student1-form2 {
+    top: 589px;
+    left: 326px;
+    width: 168px;
+    bottom: 33px;
+    height: 273px;
+  }
+  .st-student1-pasted-image1 {
+    top: 44px;
+    left: 54px;
+  }
+}
+@media(max-width: 479px) {
+  .st-student1-top-bar {
+    width: 479px;
+  }
+  .st-student1-form {
+    width: 428px;
+  }
+  .st-student1-pasted-image {
+    top: 32px;
+    left: 23px;
+  }
+  .st-student1-form1 {
+    width: 232px;
+  }
+  .st-student1-form2 {
+    left: 275px;
+  }
+}

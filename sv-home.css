@@ -27,9 +27,12 @@
 }
 .sv-home-text1 {
   top: 260px;
-  left: 872px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   position: absolute;
   font-size: 25px;
+  text-align: center;
 }
 .sv-home-navlink {
   top: 338px;
@@ -80,4 +83,24 @@
   text-align: center;
   padding-right: 11px;
   text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .sv-home-top-bar {
+    width: 1200px;
+  }
+}
+@media(max-width: 991px) {
+  .sv-home-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .sv-home-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .sv-home-top-bar {
+    width: 479px;
+  }
 }

@@ -28,9 +28,12 @@
 }
 .st-supervisor-student-list-text1 {
   top: 260px;
-  left: 872px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   position: absolute;
   font-size: 25px;
+  text-align: center;
 }
 .st-supervisor-student-list-navlink {
   top: 338px;
@@ -75,4 +78,40 @@
   box-shadow: rgb(0, 0, 0) 1px 1px 5px 0px;
   text-align: center;
   text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .st-supervisor-student-list-top-bar {
+    width: 1200px;
+  }
+  .st-supervisor-student-list-navlink3 {
+    top: 192px;
+    left: 191px;
+  }
+}
+@media(max-width: 991px) {
+  .st-supervisor-student-list-top-bar {
+    width: 991px;
+  }
+  .st-supervisor-student-list-navlink3 {
+    top: 181px;
+    left: 136px;
+  }
+}
+@media(max-width: 767px) {
+  .st-supervisor-student-list-top-bar {
+    width: 767px;
+  }
+  .st-supervisor-student-list-navlink3 {
+    top: 170px;
+    left: 79px;
+  }
+}
+@media(max-width: 479px) {
+  .st-supervisor-student-list-top-bar {
+    width: 479px;
+  }
+  .st-supervisor-student-list-navlink3 {
+    top: 158px;
+    left: 17px;
+  }
 }

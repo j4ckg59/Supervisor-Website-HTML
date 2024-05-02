@@ -5,7 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: var(--dl-color-gray-bg);
 }
 .s-home-top-bar {
@@ -60,6 +60,13 @@
   font-size: 20px;
   line-height: 1.5;
 }
+.s-home-text20 {
+  top: 300px;
+  left: 158px;
+  position: absolute;
+  font-size: 20px;
+  line-height: 1.5;
+}
 .s-home-navlink {
   top: 226px;
   left: 1014px;
@@ -82,13 +89,6 @@
   text-align: center;
   text-decoration: none;
 }
-.s-home-text23 {
-  top: 512px;
-  left: 612px;
-  position: absolute;
-  font-size: 20px;
-  line-height: 1.5;
-}
 .s-home-navlink2 {
   top: 558px;
   left: 1018px;
@@ -100,4 +100,85 @@
   text-align: center;
   padding-right: 11px;
   text-decoration: none;
+}
+.s-home-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 1200px) {
+  .s-home-top-bar {
+    width: 1200px;
+  }
+  .s-home-form {
+    top: 163px;
+    left: 71px;
+  }
+  .s-home-text20 {
+    top: 300px;
+    left: 158px;
+    bottom: 0px;
+    position: absolute;
+  }
+  .s-home-navlink {
+    top: 163px;
+    left: 579px;
+    position: absolute;
+  }
+  .s-home-navlink1 {
+    top: 246px;
+    left: 579px;
+    position: absolute;
+  }
+  .s-home-navlink2 {
+    top: 498px;
+    left: 579px;
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .s-home-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .s-home-top-bar {
+    width: 767px;
+  }
+  .s-home-form {
+    left: 30px;
+  }
+  .s-home-navlink {
+    top: 582px;
+    left: 30px;
+  }
+  .s-home-navlink1 {
+    top: 582px;
+    left: 275px;
+    position: absolute;
+  }
+  .s-home-navlink2 {
+    top: 704px;
+    left: 30px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .s-home-top-bar {
+    width: 479px;
+  }
+  .s-home-form {
+    width: 442px;
+  }
+  .s-home-pasted-image {
+    top: 29px;
+    left: 26px;
+  }
+  .s-home-navlink1 {
+    left: 250px;
+  }
 }

@@ -28,7 +28,8 @@
 }
 .sv-arrange-meeting2-form {
   top: 275px;
-  left: 711px;
+  left: 0px;
+  right: 0px;
   width: 497px;
   height: 101px;
   margin: auto;
@@ -43,15 +44,17 @@
   position: absolute;
 }
 .sv-arrange-meeting2-select {
-  top: 315px;
-  left: 1031px;
+  right: 38px;
+  bottom: 38px;
   position: absolute;
 }
 .sv-arrange-meeting2-navlink {
   top: 431px;
-  left: 887px;
+  left: 0px;
+  right: 0px;
   width: 145px;
   height: 54px;
+  margin: auto;
   position: absolute;
   box-shadow: 1px 1px 5px 0px #000000;
   text-align: center;
@@ -64,6 +67,32 @@
 }
 .sv-arrange-meeting2-text5 {
   top: 236px;
-  left: 842px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   position: absolute;
+  text-align: center;
+}
+@media(max-width: 1200px) {
+  .sv-arrange-meeting2-top-bar {
+    width: 1200px;
+  }
+}
+@media(max-width: 991px) {
+  .sv-arrange-meeting2-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .sv-arrange-meeting2-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .sv-arrange-meeting2-top-bar {
+    width: 479px;
+  }
+  .sv-arrange-meeting2-form {
+    width: 454px;
+  }
 }

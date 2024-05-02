@@ -110,3 +110,62 @@
   text-align: center;
   text-decoration: none;
 }
+@media(max-width: 1200px) {
+  .sv-student1-top-bar {
+    width: 1200px;
+  }
+  .sv-student1-form {
+    top: 197px;
+    left: 44px;
+    width: 462px;
+  }
+  .sv-student1-form1 {
+    top: 197px;
+    left: 600px;
+    right: 367px;
+  }
+  .sv-student1-navlink {
+    left: 600px;
+  }
+  .sv-student1-navlink1 {
+    top: 135px;
+    left: 43px;
+  }
+}
+@media(max-width: 991px) {
+  .sv-student1-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .sv-student1-top-bar {
+    width: 767px;
+  }
+  .sv-student1-form {
+    height: 383px;
+  }
+  .sv-student1-text22 {
+    top: 207px;
+    left: 39px;
+  }
+  .sv-student1-form1 {
+    top: 610px;
+    left: 44px;
+  }
+  .sv-student1-navlink {
+    top: 850px;
+    left: 44px;
+  }
+}
+@media(max-width: 479px) {
+  .sv-student1-top-bar {
+    width: 479px;
+  }
+  .sv-student1-form {
+    width: 411px;
+  }
+  .sv-student1-pasted-image {
+    top: 30px;
+    left: 6px;
+  }
+}

@@ -73,4 +73,22 @@
   .login-page-container {
     max-width: 2000;
   }
+  .login-page-top-bar {
+    width: 1200px;
+  }
+}
+@media(max-width: 991px) {
+  .login-page-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .login-page-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .login-page-top-bar {
+    width: 479px;
+  }
 }

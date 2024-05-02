@@ -27,10 +27,13 @@
   text-align: center;
 }
 .st-home-text1 {
-  top: 277px;
-  left: 801px;
+  top: 257px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   position: absolute;
   font-size: 25px;
+  text-align: center;
 }
 .st-home-navlink {
   top: 338px;
@@ -57,4 +60,24 @@
   text-align: center;
   padding-right: 11px;
   text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .st-home-top-bar {
+    width: 1200px;
+  }
+}
+@media(max-width: 991px) {
+  .st-home-top-bar {
+    width: 991px;
+  }
+}
+@media(max-width: 767px) {
+  .st-home-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .st-home-top-bar {
+    width: 479px;
+  }
 }

@@ -51,7 +51,8 @@
 .s-update-status-pasted-image1 {
   top: 125px;
   right: 129px;
-  width: 100;
+  width: 100px;
+  height: 100px;
   position: absolute;
 }
 .s-update-status-pasted-image2 {
@@ -105,4 +106,24 @@
   left: 236px;
   position: absolute;
   font-size: 25px;
+}
+@media(max-width: 1200px) {
+  .s-update-status-top-bar {
+    width: 1200px;
+  }
+}
+@media(max-width: 991px) {
+  .s-update-status-top-bar {
+    width: 982px;
+  }
+}
+@media(max-width: 767px) {
+  .s-update-status-top-bar {
+    width: 767px;
+  }
+}
+@media(max-width: 479px) {
+  .s-update-status-top-bar {
+    width: 479px;
+  }
 }
