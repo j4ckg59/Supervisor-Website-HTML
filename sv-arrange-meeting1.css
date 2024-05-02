@@ -22,7 +22,12 @@
   background-color: #1e1c1c;
 }
 .sv-arrange-meeting1-text {
+  top: 32px;
+  left: 0px;
   color: rgb(255, 255, 255);
+  right: 0px;
+  margin: auto;
+  position: absolute;
   font-size: 30px;
   text-align: center;
 }
